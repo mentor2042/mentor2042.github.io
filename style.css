@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+#calendar {
+  margin-bottom: 2em;
+}
+
+#booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#booking-form label {
+  margin-top: 1em;
+}
+
+#booking-form input, #booking-form select, #booking-form button {
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+  margin-top: 2em;
+}
+

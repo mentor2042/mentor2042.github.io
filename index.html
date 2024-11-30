@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor Meeting Calendar</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add a favicon (optional) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Mentor Meeting Calendar</h1>
+  </header>
+  <main>
+    <section id="calendar">
+      <!-- Calendar will be rendered dynamically -->
+    </section>
+    <section id="booking">
+      <h2>Book a Meeting</h2>
+      <form id="booking-form" action="https://formsubmit.co/shengliang.song@gmail.com" method="POST">
+        <label for="date">Selected Date:</label>
+        <input type="text" id="date" name="date" readonly required>
+        
+        <label for="time">Select Time:</label>
+        <select id="time" name="time" required>
+          <!-- Time slots will populate dynamically -->
+        </select>
+        
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Mentor Meeting Calendar © 2024</p>
+  </footer>
+  <!-- Link to JavaScript -->
+  <script type=module src="script.js" defer></script>
+</body>
+</html>
+

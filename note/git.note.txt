@@ -1,0 +1,8 @@
+Note:
+
+git remote set-url origin git@github.com:mentor2042/mentor2042.github.io.git
+
+git commit --amend --author="Mentor <mentor.2042@gmail.com>" --no-edit
+
+eval "$(ssh-agent -s)"
+ssh-add /home/riscv/.ssh/mentor_rsa
